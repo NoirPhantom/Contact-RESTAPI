@@ -1,11 +1,11 @@
-# Contact-RESTAPI
+# 𝛂 𝛀 ⑤ de Mayo
 
 <div id="top"></div>
 <br />
 <div align="center">
 
-<h3 align="center">evilCorp's Quiz of Insanity</h3>
-  <img src="https://i.imgur.com/orN7elm.jpeg">
+<h3 align="center">Alpha Omega Cinco de Mayo</h3>
+  <img src="https://github.com/NoirPhantom/Contact-RESTAPI/blob/master/Alpha_Omega_Cinco_de_Mayo.png">
 
   <p align="center">
     <br />
@@ -47,18 +47,19 @@
 
 ## About The Project
 
- Team evilCorp created a quiz to judge those of worth, elevating them to our ranks and including them in global domination. Team Latency members are the first volunteers to participate.
+ Team 𝛂 𝛀 ⑤ de Mayo has created a Phonebook web application that will read, store, update and delete entries within the database created.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
 
-* [Atom](https://atom.io/)
+* [Eclipse](https://www.eclipse.org/downloads/)
 * [Moodle](http://siux.vanguard.xpxtraining.com/course/view.php?id=6/)
 * [Google](https://www.google.com/)
 * [Github](https://github.com/)
-* [Zoom](https://zoom.us/)
+* [MySQL](https://dev.mysql.com/downloads/installer/)
+* [Postman](https://www.postman.com/downloads/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -67,7 +68,6 @@
 
 ## Getting Started
 
-All you will need to get started is access to the machine where our quiz is stored and the absolute path or the classified membership link.
 
 ### Prerequisites
 
@@ -76,7 +76,7 @@ You must be of seedy moral character, quick witted beyond your years, and show h
 
 ### Installation
 
-Zoom is the only installation required on the part of the candidate team.
+Eclipse, MySQL, and Postman are required to be installed locally on your device to run application.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -94,13 +94,15 @@ Since the quiz will be given through a stream, the resource usage required from 
 
 ## Roadmap
 
-- [X] Team meeting 0
+- [ ] Team meeting 0
 - [X] Completed assigned tasks
-    - [X] index.hmtl
-    - [X] styles.css
-    - [X] script.js
-- [X] Quality Assurance
-- [X] Merge to 'master'
+    - [X] contactapplication.java
+    - [ ] contact.java
+    - [ ] contactcontroller.java
+    - [ ] contactservice.java
+    - [ ] contactrepository.java
+- [ ] Quality Assurance
+- [ ] Merge to 'master'
 - [ ] Evaulate Teams
     - [ ] Team 1
     - [ ] Team 2
