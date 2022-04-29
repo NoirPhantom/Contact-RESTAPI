@@ -1,4 +1,4 @@
-package com.example.playlist.controller;
+package com.example.contact.controller;
 
 import java.util.List;
 
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.playlist.model.Playlist;
-import com.example.playlist.service.PlaylistService;
+import com.example.contact.model.Contact;
+import com.example.contact.service.ContactService;
 
 @RestController
 @RequestMapping("/api")
