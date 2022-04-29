@@ -97,7 +97,7 @@ Since the quiz will be given through a stream, the resource usage required from 
 - [ ] Team meeting 0
 - [X] Completed assigned tasks
     - [X] contactapplication.java
-    - [ ] contact.java
+    - [X] contact.java
     - [ ] contactcontroller.java
     - [ ] contactservice.java
     - [ ] contactrepository.java
@@ -117,31 +117,28 @@ Since the quiz will be given through a stream, the resource usage required from 
 ## Contributing
 
 * -$70rm-
-* Alter Ego: Rehna
-* Speciality: Team Leader / Business Analyst
+* Alter Ego: Anatalio
+* Speciality: Team Leader
 * Hidden Power: Impenetable Force Fields
 * Catch Phrase: "This is our chance to make a difference!"
  -----------------------
 * -w0nd3r w0m4n-
-* Alter Ego: Padmaja
+* Alter Ego: ShaKeah
 * Speciality: Archetict
 * Hidden Power: 15,000 wpm
 * Catch Phrase: "Hasta la vista, baby!
 
-
  -----------------------
-* -c0d3 m4g1c m4n-
-* Alter Ego: David
+* David
 * Speciality: Quality Assurance
-* Hidden Power: Invisibility
-* Catch Phrase: "I'm here mang, you just cant see me!"
 
  -----------------------
-* -v1b3-
-* Alter Ego: Anatalio
+* Jonathan
 * Speciality: Dev Ops
-* Hidden Power: (Classified)
-* Catch Phrase: "Chillin' like a villian."
+
+ -----------------------
+*  Tomas
+* Speciality: Business Analyst
 
 Any suggestions on how to improve the Insanity Quiz will be record and investigated. Once identied are confirmed, the puppies in your local area will be kicked, the hand brake lines on all bicycle will be cut within a 5 block radius, and everytime you park in a public space for the next 5 years, you vehicle will be enclosed with a circle of Wal-Mart or Target shopping buggies. #tryme
 
