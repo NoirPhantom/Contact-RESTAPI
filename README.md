@@ -94,13 +94,16 @@ Since the quiz will be given through a stream, the resource usage required from 
 
 ## Roadmap
 
-- [ ] Team meeting 0
+- [x] Psuedo Code Architecture
 - [X] Completed assigned tasks
     - [X] contactapplication.java
     - [X] contact.java
+    - [X] contactperson.java
+    - [X] contactorganization.java
     - [ ] contactcontroller.java
     - [ ] contactservice.java
-    - [ ] contactrepository.java
+    - [X] contactrepository.java
+    - [X] datetimeconverter.java
 - [ ] Quality Assurance
 - [ ] Merge to 'master'
 - [ ] Evaulate Teams
@@ -116,17 +119,12 @@ Since the quiz will be given through a stream, the resource usage required from 
 
 ## Contributing
 
-* -$70rm-
-* Alter Ego: Anatalio
+* Anatalio
 * Speciality: Team Leader
-* Hidden Power: Impenetable Force Fields
-* Catch Phrase: "This is our chance to make a difference!"
+
  -----------------------
-* -w0nd3r w0m4n-
-* Alter Ego: ShaKeah
+* ShaKeah
 * Speciality: Archetict
-* Hidden Power: 15,000 wpm
-* Catch Phrase: "Hasta la vista, baby!
 
  -----------------------
 * David
