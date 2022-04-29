@@ -28,22 +28,28 @@ public class ContactController {
         
         }
         
-        @GetMapping("/contact")
-        
-        }
+        @GetMapping("/contact"){
 
-        @PutMapping("/contact")
-        
-        }
-
-        @DeleteMapping("contact")
-        
         }
         
-		@PatchMapping("/contact")
         
+
+        @PutMapping("/contact"){
+
+        }
+        
+        
+
+        @DeleteMapping("contact"){
+
+        }
+        
+        
+        
+		@PatchMapping("/contact"){
         }
 
+        
 
 
-}
+
