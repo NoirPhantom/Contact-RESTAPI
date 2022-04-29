@@ -14,13 +14,16 @@ public class ContactService {
             ContactRepository conRepository;    
         
         
-        
-        
-        
-        // ADD 
-        
+        //CREATE
 
-        // COUNT
+
+        //READ
+
+
+        //UPDATE
+        
+        
+        // COUNT(ID)
         
 
         // INFO
@@ -29,10 +32,13 @@ public class ContactService {
         // DELETE
 
 
-        //SEARCH
+        //SEARCH(GETBYID)
+
+
+        //SEARCH(GET ALL SEARCH RESULTS)
 
         
-        //EXIT
+        
         
      
 
