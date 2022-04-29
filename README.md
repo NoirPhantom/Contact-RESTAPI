@@ -97,7 +97,7 @@ Since the quiz will be given through a stream, the resource usage required from 
 - [ ] Team meeting 0
 - [X] Completed assigned tasks
     - [X] contactapplication.java
-    - [ ] contact.java
+    - [X] contact.java
     - [ ] contactcontroller.java
     - [ ] contactservice.java
     - [ ] contactrepository.java
