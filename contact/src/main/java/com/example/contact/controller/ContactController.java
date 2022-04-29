@@ -42,9 +42,9 @@ public class ContactController {
         return ContactService.getContact();
     }
 
-    @GetMapping("/contact_id/{contact_id}")
-    public Optional<Contact> getContact(Long contact_id) {
-        return ContactService.getContact(contact_id);
+    @GetMapping("/contact/{contact_id}")
+    public Optional<Contact> getContact(@PathVariable(value = "contact_id") Long id) {
+        return ContactService.getContact(id);
     }
 
     @DeleteMapping("/contact/{contact_id}")
