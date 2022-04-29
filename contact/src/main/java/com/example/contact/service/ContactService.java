@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import com.example.contact.model.Contact;
+import com.example.contact.model.ContactOrganization;
 import com.example.contact.model.ContactPerson;
 import com.example.contact.repository.ContactRepository;
 import java.util.List;
@@ -17,8 +18,14 @@ public class ContactService {
 	ContactRepository conRepository;
 
 	// CREATE
-	public Contact createContact(Contact con) {
+	public Contact createContactPerson(ContactPerson con) {
+
 		return conRepository.save(con);
+	}
+
+	public Contact createContactOrganization(ContactOrganization org) {
+
+		return conRepository.save(org);
 	}
 
 	// READ(All Contacts)
@@ -75,6 +82,7 @@ public class ContactService {
 	 * return conRepository.save(con);
 	 * }
 	 */
+	//
 
 	// DELETE
 	public void deleteContact(Long contact_id) {

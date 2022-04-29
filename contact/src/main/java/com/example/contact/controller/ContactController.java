@@ -27,14 +27,14 @@ public class ContactController {
     @Autowired
     ContactService ContactService;
 
-    @PostMapping("/contact_id")
+    @PostMapping("/person/contact_id")
     public Contact createContactPerson(@RequestBody ContactPerson person) {
-        return ContactService.createContact(person);
+        return ContactService.createContactPerson(person);
     }
 
-    @PostMapping("/contact_id")
+    @PostMapping("/organization/contact_id")
     public Contact createContactOrganization(@RequestBody ContactOrganization organization) {
-        return ContactService.createContact(organization);
+        return ContactService.createContactOrganization(organization);
     }
 
     @GetMapping("/contact_id")
