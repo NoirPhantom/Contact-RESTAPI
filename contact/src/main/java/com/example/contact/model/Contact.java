@@ -14,10 +14,9 @@ import javax.persistence.Table;
 @Table(name = "phone_book")
 @DiscriminatorColumn(name = "contactType")
 public class Contact {
-	@Column(insertable = false, updatable = false)
-	protected String contactType;
+    @Column(insertable = false, updatable = false)
+    protected String contactType;
 
-	
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "contact_id")
@@ -35,62 +34,59 @@ public class Contact {
     public Contact() {
     }
 
-	public Contact(String contactType, Long id, String name, String phoneNumber, LocalDateTime dateTime) {
-		super();
-		this.contactType = contactType;
-		this.id = id;
-		this.name = name;
-		this.phoneNumber = phoneNumber;
-		this.dateTime = LocalDateTime.now();
-	}
+    public Contact(String contactType, Long id, String name, String phoneNumber, LocalDateTime dateTime) {
+        super();
+        this.contactType = contactType;
+        this.id = id;
+        this.name = name;
+        this.phoneNumber = phoneNumber;
+        this.dateTime = LocalDateTime.now();
+    }
 
-	public String getContactType() {
-		return contactType;
-	}
+    public String getContactType() {
+        return contactType;
+    }
 
-	public void setContactType(String contactType) {
-		this.contactType = contactType;
-	}
+    public void setContactType(String contactType) {
+        this.contactType = contactType;
+    }
 
-	public Long getId() {
-		return id;
-	}
+    public Long getId() {
+        return id;
+    }
 
-	public void setId(Long id) {
-		this.id = id;
-	}
+    public void setId(Long id) {
+        this.id = id;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public String getPhoneNumber() {
-		return phoneNumber;
-	}
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
 
-	public void setPhoneNumber(String phoneNumber) {
-		this.phoneNumber = phoneNumber;
-	}
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
 
-	public LocalDateTime getDateTime() {
-		return dateTime;
-	}
+    public LocalDateTime getDateTime() {
+        return dateTime;
+    }
 
-	public void setDateTime(LocalDateTime dateTime) {
-		this.dateTime = dateTime;
-	}
+    public void setDateTime(LocalDateTime dateTime) {
+        this.dateTime = dateTime;
+    }
 
-	@Override
-	public String toString() {
-		return "Contact [contactType=" + contactType + ", id=" + id + ", name=" + name + ", phoneNumber=" + phoneNumber
-				+ ", dateTime=" + dateTime + "]";
-	}
-
-
-
+    @Override
+    public String toString() {
+        return "Contact [contactType=" + contactType + ", id=" + id + ", name=" + name + ", phoneNumber=" + phoneNumber
+                + ", dateTime=" + dateTime + "]";
+    }
 
 }
