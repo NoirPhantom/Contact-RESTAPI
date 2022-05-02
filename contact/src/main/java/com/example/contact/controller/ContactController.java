@@ -25,56 +25,59 @@ import com.example.contact.service.ContactService;
 @RequestMapping("/phone_book")
 public class ContactController {
 
-	@Autowired
-	ContactService ContactService;
+    @Autowired
+    ContactService ContactService;
 
-	@PostMapping("/person/contact_id")
-	public Contact createContactPerson(@RequestBody ContactPerson person) {
-		return ContactService.createContactPerson(person);
-	}
+    @PostMapping("/person/contact_id")
+    public Contact createContactPerson(@RequestBody ContactPerson person) {
+        return ContactService.createContactPerson(person);
+    }
 
-	@PostMapping("/organization/contact_id")
-	public Contact createContactOrganization(@RequestBody ContactOrganization organization) {
-		return ContactService.createContactOrganization(organization);
-	}
+    @PostMapping("/organization/contact_id")
+    public Contact createContactOrganization(@RequestBody ContactOrganization organization) {
+        return ContactService.createContactOrganization(organization);
+    }
 
-	@GetMapping("/contact_id")
-	public List<Contact> readContact() {
-		return ContactService.getContact();
-	}
+    @GetMapping("/contact_id")
+    public List<Contact> readContact() {
+        return ContactService.getContact();
+    }
 
-	@GetMapping("/contact/{contact_id}")
-	public Optional<Contact> getContact(@PathVariable(value = "contact_id") Long id) {
-		return ContactService.getContact(id);
-	}
+    @GetMapping("/contact/{contact_id}")
+    public Optional<Contact> getContact(@PathVariable(value = "contact_id") Long id) {
+        return ContactService.getContact(id);
+    }
 
-	@PutMapping("/contact/{contactType}")
-	public Contact updateContact(@PathVariable(value = "contactType") String contactType,
-			@RequestBody Contact contactDetails) {
-		if (contactType.equals(contactPerson)) {
-			return ContactService.updateContact(contactType, contactDetails);
-		}
+    // @PutMapping("/contact/{contactType}/{contact_id}")
+    // public Contact updateContact(@PathVariable(value = "contact_id") Long id,
+    // @PathVariable(value = "contactType") String contactType,
+    // Contact contactDetails) {
+    // if (contactType.equals("person")) {
+    // return ContactService.updateContactPerson(id, contactType,contactDetails);
+    // }
 
-		else if (contactType.equals(contactOrganization)) {
-			return ContactService.updateContact(contactType, contactDetails);
-		}
-	}
+    // else if (contactType.equals("organization")) {
+    // return ContactService.updateContactOrganization(id,contactType,
+    // contactDetails);
+    // }
+    // }
 
-	@PatchMapping("/contact/{contactType}")
-	public Contact replaceContact(@PathVariable(value = "contactType") String contactType,
-			@PathVariable(value = "newName") String name) {
-		if (contactType.equals(contactPerson)) {
-			return ContactService.replaceContact(contactType, name);
-		}
+    // @PatchMapping("/contact/{contactType}/{contact_id}")
+    // public Contact replaceContact(@PathVariable(value = "contact_id") Long id,
+    // @PathVariable(value = "contactType") String contactType,
+    // @PathVariable(value = "newName") String name) {
+    // if (contactType.equals("person")) {
+    // return ContactService.replaceContactPerson(id, contactType,name);
+    // }
 
-		else if (contactType.equals(contactOrganization)) {
-			return ContactService.replaceContact(contactType, name);
-		}
-	}
+    // else if (contactType.equals("organization")) {
+    // return ContactService.replaceContactOrganization(id, name);
+    // }
+    // }
 
-	@DeleteMapping("/contact/{contact_id}")
-	public void deleteContact(@PathVariable(value = "contact_id") Long id) {
-		ContactService.deleteContact(id);
-	}
+    @DeleteMapping("/contact/{contact_id}")
+    public void deleteContact(@PathVariable(value = "contact_id") Long id) {
+        ContactService.deleteContact(id);
+    }
 
 }
