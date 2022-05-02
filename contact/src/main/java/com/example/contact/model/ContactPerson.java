@@ -19,14 +19,18 @@ public class ContactPerson extends Contact {
     public ContactPerson() {
     }
 
-    public ContactPerson(Long id, String name, String phoneNumber, LocalDateTime dateTime, String email,
-            String dateOfBirth) {
-        super(id, name, phoneNumber, dateTime);
-        this.email = email;
-        this.dateOfBirth = dateOfBirth;
-    }
 
-    public String getEmail() {
+
+    public ContactPerson(String contactType, Long id, String name, String phoneNumber, LocalDateTime dateTime,
+			String email, String dateOfBirth) {
+		super(contactType, id, name, phoneNumber, dateTime);
+		this.email = email;
+		this.dateOfBirth = dateOfBirth;
+	}
+
+
+
+	public String getEmail() {
         return email;
     }
 
@@ -42,10 +46,14 @@ public class ContactPerson extends Contact {
         this.dateOfBirth = dateOfBirth;
     }
 
-    @Override
-    public String toString() {
-        return "ContactPerson [dateTime = " + dateTime + ", id = " + id + ", name = " + name + ", phoneNumber = "
-                + phoneNumber + "dateOfBirth = " + dateOfBirth + ", email = " + email + "]";
-    }
+
+
+	@Override
+	public String toString() {
+		return "ContactPerson [email=" + email + ", dateOfBirth=" + dateOfBirth + ", contactType=" + contactType
+				+ ", id=" + id + ", name=" + name + ", phoneNumber=" + phoneNumber + ", dateTime=" + dateTime + "]";
+	}
+
+ 
 
 }

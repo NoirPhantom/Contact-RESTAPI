@@ -15,24 +15,29 @@ public class ContactOrganization extends Contact {
 
     public ContactOrganization() {
     }
-
-    public ContactOrganization(Long id, String name, String phoneNumber, LocalDateTime dateTime, String website) {
-        super(id, name, phoneNumber, dateTime);
-        this.website = website;
+    public ContactOrganization(String contactType, Long id, String name, String phoneNumber, LocalDateTime dateTime,
+    		String website) {
+    	super(contactType, id, name, phoneNumber, dateTime);
+    	this.website = website;
     }
 
     public String getWebsite() {
         return website;
     }
 
-    public void setWebsite(String website) {
+
+
+
+	public void setWebsite(String website) {
         this.website = website;
     }
+	@Override
+	public String toString() {
+		return "ContactOrganization [contactType=" + contactType + "website=" + website + ", id=" + id + ", name=" + name + ", phoneNumber="
+				+ phoneNumber + ", dateTime=" + dateTime + "]";
+	}
 
-    @Override
-    public String toString() {
-        return "ContactOrganization [dateTime = " + dateTime + ", id = " + id + ", name = " + name + ", phoneNumber = "
-                + phoneNumber + "website = " + website + "]";
-    }
+
+    
 
 }
