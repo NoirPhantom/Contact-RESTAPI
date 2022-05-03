@@ -85,7 +85,7 @@ Eclipse, MySQL, and Postman are required to be installed locally on your device 
 
 ## Usage
 
-Since the quiz will be given through a stream, the resource usage required from your personal machine is minimal.  
+This basic online phonebook will use very little resources from the machine you access it from.  
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -154,9 +154,9 @@ Liscensing is not needed as this is an educational project not to be utilized ou
 
 ## Contact
 
--v1b3- @badguyv1b3 - areyouvibin.supervillian@evilCorps.com
+Techonerdo@AO5.com 
 
-Project Link: https://github.com/AnatalioNickles/Team-4-Hack-A-Thon.git
+Project Link: https://github.com/NoirPhantom/Contact-RESTAPI
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -164,12 +164,9 @@ Project Link: https://github.com/AnatalioNickles/Team-4-Hack-A-Thon.git
 
 ## Acknowledgments
 
-* [Underground Overlord] CEO Pooja Purohit
-* [Lackey 1] VP Maleeha (last name secret)
-* [Lackey 2] Owner
-* [Thug 1] Opera Winfrey
-* [Thug 2] Veronica Cisneros
-* [Enforcer] Will Smith (probationary)
-
+* The Puebla citizens that fought hard to the Cinco de Mayo celebrations to follow
+* Mexican citizens that migrated bring the culture to the US
+* Mamas that taught all the ninos y ninas how to cook tortillas
+* French soldiers that followed Napoleon III's orders to attack poor Mexico to collect a debt 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
