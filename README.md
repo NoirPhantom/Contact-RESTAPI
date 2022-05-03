@@ -11,9 +11,9 @@
     <br />
     <a href="https://www.google.com/search?q=hi+alex!&sxsrf=APq-WBveHwk7TQkUhLdjIJ-ZS-DF2I0wTQ:1649436844712&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiMmNWJ94T3AhXNkmoFHVejA_cQ_AUoAXoECAIQAw&biw=1920&bih=899&dpr=1">View Demo</a>
     ·
-    <a href="https://movitees.com/shop2/evil-corp-t-shirt">Sport the Merch</a>
+    <a href="https://www.redbubble.com/i/hoodie/Cinco-de-Mayo-by-DetourShirts/7133062.VY21C?country_code=US&msclkid=22a14a566467138f9446282747984933&utm_source=bing&utm_medium=cpc&utm_campaign=B.PLA%20-%20G.USA%20-%20L.ENG&utm_term=4580015687033094&utm_content=Desktop&gclid=22a14a566467138f9446282747984933&gclsrc=3p.ds">Sport the Merch</a>
     ·
-    <a href="https://nypost.com/2022/03/20/russian-elites-planning-to-overthrow-putin/">We Aren't Alone</a>
+    <a href="https://www.socialmediatoday.com/news/yellow-pages-vs-digital-marketing-is-the-phone-book-really-dead/516574/">We Aren't Alone</a>
   </p>
 </div>
 
