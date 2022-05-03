@@ -165,8 +165,9 @@ Project Link: https://github.com/NoirPhantom/Contact-RESTAPI
 ## Acknowledgments
 
 * The Puebla citizens that fought hard to the Cinco de Mayo celebrations to follow
-* Mexican citizens that migrated bring the culture to the US
+* Mexican citizens that migrated bringing the culture to the US
 * Mamas that taught all the ninos y ninas how to cook tortillas
-* French soldiers that followed Napoleon III's orders to attack poor Mexico to collect a debt 
+* French soldiers that followed Napoleon III's orders to attack poor Mexico to collect a debt
+* All the people who know that Cinco de Mayo is not Mexican Independance day! 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
