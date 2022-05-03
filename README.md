@@ -71,7 +71,7 @@
 
 ### Prerequisites
 
-You must be of seedy moral character, quick witted beyond your years, and show high competancy running a criminal enterprise to proceed. (Organized Crimes charges in your rap sheet are considered higly favored candidates)
+Internet capable connection device and input periphials
 
 
 ### Installation
@@ -94,20 +94,21 @@ Since the quiz will be given through a stream, the resource usage required from 
 
 ## Roadmap
 
-- [ ] Team meeting 0
+- [X] Team meeting 0
 - [X] Completed assigned tasks
     - [X] contactapplication.java
     - [X] contact.java
-    - [ ] contactcontroller.java
-    - [ ] contactservice.java
-    - [ ] contactrepository.java
-- [ ] Quality Assurance
-- [ ] Merge to 'master'
-- [ ] Evaulate Teams
-    - [ ] Team 1
-    - [ ] Team 2
-    - [ ] Team 3
-    - [ ] Team 5
+    - [X] contactcontroller.java
+    - [X] contactservice.java
+    - [X] contactrepository.java
+- [X] Quality Assurance
+- [X] Merge to 'master'
+- [X] Power Point Presentation
+    - [X] Create personas
+    - [X] Find appropiate music
+    - [X] Brush up on spanish
+    - [X] Create slides
+    - [X] Record video
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -118,7 +119,12 @@ Since the quiz will be given through a stream, the resource usage required from 
 
 * Anatalio
 * Speciality: Team Leader
+ 
  -----------------------
+*  Tomas
+* Speciality: Business Analyst
+
+-----------------------
 * ShaKeah
 * Speciality: Archetict
 
@@ -130,11 +136,9 @@ Since the quiz will be given through a stream, the resource usage required from 
 * Jonathan
 * Speciality: Dev Ops
 
- -----------------------
-*  Tomas
-* Speciality: Business Analyst
 
-Any suggestions on how to improve the Insanity Quiz will be record and investigated. Once identied are confirmed, the puppies in your local area will be kicked, the hand brake lines on all bicycle will be cut within a 5 block radius, and everytime you park in a public space for the next 5 years, you vehicle will be enclosed with a circle of Wal-Mart or Target shopping buggies. #tryme
+
+This team was able to work on the project despite being located nationwide. Any questions or concerns will be address by the most appropiate team member dependant on their timezone.
 
 Don't forget to give the project a star!
 
@@ -143,9 +147,7 @@ Don't forget to give the project a star!
 
 ## License
 
-Members of evilCorps are issued a license for pirating (both oceanic & digital), murder, insurgnecy, & political shenanigans.
-
-Probationary members are only allowed the basic murder license.
+Liscensing is not needed as this is an educational project not to be utilized out side the class setting.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
